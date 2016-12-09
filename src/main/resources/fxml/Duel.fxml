@@ -1,0 +1,1855 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane fx:id="gridPaneDuel" gridLinesVisible="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="460.0" prefWidth="978.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.kielce.tu.kronos.gui.ControllerDuel">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="15.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="35.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="350.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="200.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="350.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="35.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="15.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="64.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="35.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="350.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="-Infinity" minHeight="15.0" prefHeight="10.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <GridPane gridLinesVisible="true" GridPane.columnIndex="4" GridPane.rowIndex="1">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../jpg/numbers/1.jpg" />
+               </image></ImageView>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1">
+               <image>
+                  <Image url="@../jpg/numbers/2.jpg" />
+               </image></ImageView>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2">
+               <image>
+                  <Image url="@../jpg/numbers/3.jpg" />
+               </image></ImageView>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3">
+               <image>
+                  <Image url="@../jpg/numbers/4.jpg" />
+               </image></ImageView>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4">
+               <image>
+                  <Image url="@../jpg/numbers/5.jpg" />
+               </image></ImageView>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5">
+               <image>
+                  <Image url="@../jpg/numbers/6.jpg" />
+               </image></ImageView>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6">
+               <image>
+                  <Image url="@../jpg/numbers/7.jpg" />
+               </image></ImageView>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7">
+               <image>
+                  <Image url="@../jpg/numbers/8.jpg" />
+               </image></ImageView>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8">
+               <image>
+                  <Image url="@../jpg/numbers/9.jpg" />
+               </image></ImageView>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9">
+               <image>
+                  <Image url="@../jpg/numbers/10.jpg" />
+               </image></ImageView>
+         </children>
+      </GridPane>
+      <GridPane gridLinesVisible="true" GridPane.columnIndex="5" GridPane.rowIndex="2">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../jpg/letters/A.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@../jpg/letters/B.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2">
+               <image>
+                  <Image url="@../jpg/letters/C.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="3">
+               <image>
+                  <Image url="@../jpg/letters/D.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="4">
+               <image>
+                  <Image url="@../jpg/letters/E.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="5">
+               <image>
+                  <Image url="@../jpg/letters/F.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="6">
+               <image>
+                  <Image url="@../jpg/letters/G.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="7">
+               <image>
+                  <Image url="@../jpg/letters/H.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="8">
+               <image>
+                  <Image url="@../jpg/letters/I.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="9">
+               <image>
+                  <Image url="@../jpg/letters/J.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </GridPane>
+      <GridPane gridLinesVisible="true" GridPane.columnIndex="2" GridPane.rowIndex="2">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <GridPane gridLinesVisible="true">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <ImageView fx:id="ownShip00" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip10" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="1">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip20" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="2">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip30" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="3">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip40" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="4">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip50" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="5">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip60" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="6">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip70" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="7">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip80" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="8">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip90" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="9">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </GridPane>
+            <GridPane gridLinesVisible="true" GridPane.rowIndex="1">
+               <children>
+                  <ImageView fx:id="ownShip01" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip11" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="1">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip21" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="2">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip31" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="3">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip41" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="4">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip51" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="5">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip61" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="6">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip71" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="7">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip81" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="8">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip91" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="9">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+            <GridPane gridLinesVisible="true" GridPane.rowIndex="2">
+               <children>
+                  <ImageView fx:id="ownShip02" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip12" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="1">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip22" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="2">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip32" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="3">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip42" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="4">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip52" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="5">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip62" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="6">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip72" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="7">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip82" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="8">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip92" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="9">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+            <GridPane gridLinesVisible="true" GridPane.rowIndex="3">
+               <children>
+                  <ImageView fx:id="ownShip03" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip13" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="1">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip23" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="2">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip33" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="3">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip43" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="4">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip53" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="5">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip63" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="6">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip73" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="7">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip83" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="8">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip93" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="9">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+            <GridPane gridLinesVisible="true" GridPane.rowIndex="4">
+               <children>
+                  <ImageView fx:id="ownShip04" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip14" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="1">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip24" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="2">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip34" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="3">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip44" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="4">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip54" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="5">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip64" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="6">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip74" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="7">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip84" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="8">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip94" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="9">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+            <GridPane gridLinesVisible="true" GridPane.rowIndex="5">
+               <children>
+                  <ImageView fx:id="ownShip05" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip15" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="1">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip25" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="2">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip35" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="3">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip45" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="4">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip55" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="5">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip65" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="6">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip75" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="7">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip85" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="8">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip95" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="9">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+            <GridPane gridLinesVisible="true" GridPane.rowIndex="6">
+               <children>
+                  <ImageView fx:id="ownShip06" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip16" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="1">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip26" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="2">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip36" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="3">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip46" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="4">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip56" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="5">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip66" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="6">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip76" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="7">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip86" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="8">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip96" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="9">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+            <GridPane gridLinesVisible="true" GridPane.rowIndex="7">
+               <children>
+                  <ImageView fx:id="ownShip07" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip17" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="1">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip27" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="2">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip37" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="3">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip47" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="4">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip57" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="5">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip67" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="6">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip77" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="7">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip87" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="8">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip97" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="9">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+            <GridPane gridLinesVisible="true" GridPane.rowIndex="8">
+               <children>
+                  <ImageView fx:id="ownShip08" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip18" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="1">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip28" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="2">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip38" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="3">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip48" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="4">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip58" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="5">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip68" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="6">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip78" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="7">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip88" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="8">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip98" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="9">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+            <GridPane gridLinesVisible="true" GridPane.rowIndex="9">
+               <children>
+                  <ImageView fx:id="ownShip09" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip19" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="1">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip29" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="2">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip39" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="3">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip49" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="4">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip59" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="5">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip69" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="6">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip79" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="7">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip89" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="8">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ownShip99" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="9">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+         </children>
+      </GridPane>
+      <Label fx:id="ownNick" text="yourNick" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+         <GridPane.margin>
+            <Insets />
+         </GridPane.margin>
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <GridPane GridPane.columnIndex="3" GridPane.rowIndex="2">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <ScrollPane fx:id="scrollPane" hbarPolicy="NEVER" prefHeight="200.0" prefWidth="200.0" vvalue="1.0">
+               <content>
+                  <TextFlow fx:id="textFlow" prefWidth="197.0" />
+               </content>
+            </ScrollPane>
+         </children>
+      </GridPane>
+      <GridPane gridLinesVisible="true" GridPane.columnIndex="2" GridPane.rowIndex="1">
+         <children>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../jpg/numbers/1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1">
+               <image>
+                  <Image url="@../jpg/numbers/2.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2">
+               <image>
+                  <Image url="@../jpg/numbers/3.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3">
+               <image>
+                  <Image url="@../jpg/numbers/4.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4">
+               <image>
+                  <Image url="@../jpg/numbers/5.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5">
+               <image>
+                  <Image url="@../jpg/numbers/6.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6">
+               <image>
+                  <Image url="@../jpg/numbers/7.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7">
+               <image>
+                  <Image url="@../jpg/numbers/8.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8">
+               <image>
+                  <Image url="@../jpg/numbers/9.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9">
+               <image>
+                  <Image url="@../jpg/numbers/10.jpg" />
+               </image>
+            </ImageView>
+         </children>
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+      </GridPane>
+      <GridPane gridLinesVisible="true" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <children>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../jpg/letters/A.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@../jpg/letters/B.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2">
+               <image>
+                  <Image url="@../jpg/letters/C.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="3">
+               <image>
+                  <Image url="@../jpg/letters/D.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="4">
+               <image>
+                  <Image url="@../jpg/letters/E.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="5">
+               <image>
+                  <Image url="@../jpg/letters/F.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="6">
+               <image>
+                  <Image url="@../jpg/letters/G.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="7">
+               <image>
+                  <Image url="@../jpg/letters/H.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="8">
+               <image>
+                  <Image url="@../jpg/letters/I.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="9">
+               <image>
+                  <Image url="@../jpg/letters/J.jpg" />
+               </image>
+            </ImageView>
+         </children>
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+      </GridPane>
+      <GridPane gridLinesVisible="true" GridPane.columnIndex="4" GridPane.rowIndex="2">
+         <children>
+            <GridPane gridLinesVisible="true">
+               <children>
+                  <ImageView fx:id="enemyShip00" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip10" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="1">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip20" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="2">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip30" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="3">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip40" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="4">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip50" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="5">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip60" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="6">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip70" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="7">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip80" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="8">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip90" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="9">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="enemyShipButton00" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#generateLog" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" />
+                  <Button fx:id="enemyShipButton10" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="1" />
+                  <Button fx:id="enemyShipButton20" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="2" />
+                  <Button fx:id="enemyShipButton30" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="3" />
+                  <Button fx:id="enemyShipButton40" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="4" />
+                  <Button fx:id="enemyShipButton50" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="5" />
+                  <Button fx:id="enemyShipButton60" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="6" />
+                  <Button fx:id="enemyShipButton70" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="7" />
+                  <Button fx:id="enemyShipButton80" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="8" />
+                  <Button fx:id="enemyShipButton90" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="9" />
+               </children>
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+            <GridPane gridLinesVisible="true" GridPane.rowIndex="1">
+               <children>
+                  <ImageView fx:id="enemyShip01" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip11" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="1">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip21" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="2">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip31" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="3">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip41" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="4">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip51" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="5">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip61" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="6">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip71" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="7">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip81" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="8">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip91" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="9">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="enemyShipButton01" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" />
+                  <Button fx:id="enemyShipButton11" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="1" />
+                  <Button fx:id="enemyShipButton21" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="2" />
+                  <Button fx:id="enemyShipButton31" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="3" />
+                  <Button fx:id="enemyShipButton41" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="4" />
+                  <Button fx:id="enemyShipButton51" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="5" />
+                  <Button fx:id="enemyShipButton61" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="6" />
+                  <Button fx:id="enemyShipButton71" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="7" />
+                  <Button fx:id="enemyShipButton81" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="8" />
+                  <Button fx:id="enemyShipButton91" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="9" />
+               </children>
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+            <GridPane gridLinesVisible="true" GridPane.rowIndex="2">
+               <children>
+                  <ImageView fx:id="enemyShip02" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip12" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="1">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip22" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="2">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip32" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="3">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip42" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="4">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip52" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="5">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip62" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="6">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip72" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="7">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip82" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="8">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip92" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="9">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="enemyShipButton02" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" />
+                  <Button fx:id="enemyShipButton12" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="1" />
+                  <Button fx:id="enemyShipButton22" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="2" />
+                  <Button fx:id="enemyShipButton32" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="3" />
+                  <Button fx:id="enemyShipButton42" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="4" />
+                  <Button fx:id="enemyShipButton52" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="5" />
+                  <Button fx:id="enemyShipButton62" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="6" />
+                  <Button fx:id="enemyShipButton72" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="7" />
+                  <Button fx:id="enemyShipButton82" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="8" />
+                  <Button fx:id="enemyShipButton92" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="9" />
+               </children>
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+            <GridPane gridLinesVisible="true" GridPane.rowIndex="3">
+               <children>
+                  <ImageView fx:id="enemyShip03" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip13" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="1">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip23" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="2">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip33" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="3">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip43" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="4">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip53" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="5">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip63" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="6">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip73" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="7">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip83" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="8">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip93" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="9">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="enemyShipButton03" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" />
+                  <Button fx:id="enemyShipButton13" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="1" />
+                  <Button fx:id="enemyShipButton23" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="2" />
+                  <Button fx:id="enemyShipButton33" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="3" />
+                  <Button fx:id="enemyShipButton43" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="4" />
+                  <Button fx:id="enemyShipButton53" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="5" />
+                  <Button fx:id="enemyShipButton63" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="6" />
+                  <Button fx:id="enemyShipButton73" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="7" />
+                  <Button fx:id="enemyShipButton83" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="8" />
+                  <Button fx:id="enemyShipButton93" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="9" />
+               </children>
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+            <GridPane gridLinesVisible="true" GridPane.rowIndex="4">
+               <children>
+                  <ImageView fx:id="enemyShip04" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip14" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="1">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip24" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="2">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip34" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="3">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip44" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="4">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip54" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="5">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip64" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="6">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip74" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="7">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip84" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="8">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip94" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="9">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="enemyShipButton04" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" />
+                  <Button fx:id="enemyShipButton14" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="1" />
+                  <Button fx:id="enemyShipButton24" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="2" />
+                  <Button fx:id="enemyShipButton34" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="3" />
+                  <Button fx:id="enemyShipButton44" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="4" />
+                  <Button fx:id="enemyShipButton54" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="5" />
+                  <Button fx:id="enemyShipButton64" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="6" />
+                  <Button fx:id="enemyShipButton74" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="7" />
+                  <Button fx:id="enemyShipButton84" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="8" />
+                  <Button fx:id="enemyShipButton94" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="9" />
+               </children>
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+            <GridPane gridLinesVisible="true" GridPane.rowIndex="5">
+               <children>
+                  <ImageView fx:id="enemyShip05" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip15" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="1">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip25" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="2">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip35" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="3">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip45" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="4">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip55" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="5">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip65" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="6">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip75" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="7">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip85" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="8">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip95" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="9">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="enemyShipButton05" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" />
+                  <Button fx:id="enemyShipButton15" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="1" />
+                  <Button fx:id="enemyShipButton25" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="2" />
+                  <Button fx:id="enemyShipButton35" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="3" />
+                  <Button fx:id="enemyShipButton45" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="4" />
+                  <Button fx:id="enemyShipButton55" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="5" />
+                  <Button fx:id="enemyShipButton65" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="6" />
+                  <Button fx:id="enemyShipButton75" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="7" />
+                  <Button fx:id="enemyShipButton85" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="8" />
+                  <Button fx:id="enemyShipButton95" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="9" />
+               </children>
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+            <GridPane gridLinesVisible="true" GridPane.rowIndex="6">
+               <children>
+                  <ImageView fx:id="enemyShip06" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip16" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="1">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip26" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="2">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip36" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="3">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip46" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="4">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip56" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="5">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip66" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="6">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip76" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="7">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip86" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="8">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip96" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="9">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="enemyShipButton06" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" />
+                  <Button fx:id="enemyShipButton16" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="1" />
+                  <Button fx:id="enemyShipButton26" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="2" />
+                  <Button fx:id="enemyShipButton36" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="3" />
+                  <Button fx:id="enemyShipButton46" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="4" />
+                  <Button fx:id="enemyShipButton56" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="5" />
+                  <Button fx:id="enemyShipButton66" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="6" />
+                  <Button fx:id="enemyShipButton76" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="7" />
+                  <Button fx:id="enemyShipButton86" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="8" />
+                  <Button fx:id="enemyShipButton96" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="9" />
+               </children>
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+            <GridPane gridLinesVisible="true" GridPane.rowIndex="7">
+               <children>
+                  <ImageView fx:id="enemyShip07" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip17" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="1">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip27" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="2">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip37" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="3">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip47" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="4">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip57" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="5">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip67" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="6">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip77" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="7">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip87" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="8">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip97" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="9">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="enemyShipButton07" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" />
+                  <Button fx:id="enemyShipButton17" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="1" />
+                  <Button fx:id="enemyShipButton27" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="2" />
+                  <Button fx:id="enemyShipButton37" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="3" />
+                  <Button fx:id="enemyShipButton47" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="4" />
+                  <Button fx:id="enemyShipButton57" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="5" />
+                  <Button fx:id="enemyShipButton67" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="6" />
+                  <Button fx:id="enemyShipButton77" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="7" />
+                  <Button fx:id="enemyShipButton87" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="8" />
+                  <Button fx:id="enemyShipButton97" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="9" />
+               </children>
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+            <GridPane gridLinesVisible="true" GridPane.rowIndex="8">
+               <children>
+                  <ImageView fx:id="enemyShip08" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip18" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="1">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip28" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="2">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip38" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="3">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip48" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="4">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip58" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="5">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip68" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="6">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip78" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="7">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip88" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="8">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip98" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="9">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="enemyShipButton08" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" />
+                  <Button fx:id="enemyShipButton18" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="1" />
+                  <Button fx:id="enemyShipButton28" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="2" />
+                  <Button fx:id="enemyShipButton38" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="3" />
+                  <Button fx:id="enemyShipButton48" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="4" />
+                  <Button fx:id="enemyShipButton58" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="5" />
+                  <Button fx:id="enemyShipButton68" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="6" />
+                  <Button fx:id="enemyShipButton78" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="7" />
+                  <Button fx:id="enemyShipButton88" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="8" />
+                  <Button fx:id="enemyShipButton98" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="9" />
+               </children>
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+            <GridPane gridLinesVisible="true" GridPane.rowIndex="9">
+               <children>
+                  <ImageView fx:id="enemyShip09" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip19" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="1">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip29" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="2">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip39" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="3">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip49" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="4">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip59" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="5">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip69" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="6">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip79" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="7">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip89" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="8">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="enemyShip99" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="emptyField" GridPane.columnIndex="9">
+                     <image>
+                        <Image url="@../jpg/flagstaff/emptyField.jpg" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="enemyShipButton09" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" />
+                  <Button fx:id="enemyShipButton19" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="1" />
+                  <Button fx:id="enemyShipButton29" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="2" />
+                  <Button fx:id="enemyShipButton39" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="3" />
+                  <Button fx:id="enemyShipButton49" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="4" />
+                  <Button fx:id="enemyShipButton59" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="5" />
+                  <Button fx:id="enemyShipButton69" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="6" />
+                  <Button fx:id="enemyShipButton79" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="7" />
+                  <Button fx:id="enemyShipButton89" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="8" />
+                  <Button fx:id="enemyShipButton99" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" opacity="0" prefHeight="35.0" prefWidth="35.0" styleClass="shipsLocationButton" text="" GridPane.columnIndex="9" />
+               </children>
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+         </children>
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+      </GridPane>
+      <Label fx:id="enemyNick" text="enemyNick" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="ownRemainedShips" text="10" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="enemySunkShips" text="0" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="ture" text="Waiting for second player" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</GridPane>

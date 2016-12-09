@@ -1,0 +1,118 @@
+#paneStartGame{
+    -fx-background-image: url(../jpg/bgImage/paneStartGame.jpg);
+}
+
+#borderPaneMenuWindow{
+    -fx-background-image: url(../jpg/bgImage/borderPaneMenuWindow.jpg);
+}
+
+#borderPaneSignIn{
+	-fx-background-image: url(../jpg/bgImage/borderPaneSignIn.jpg);
+}
+
+#borderPaneRegister{
+	-fx-background-image: url(../jpg/bgImage/borderPaneRegister.jpg);
+}
+
+#pane1{
+	-fx-background-image: url(../jpg/errorConnectWithServer.jpg);
+}
+
+#popUpPaneErrorConnectServer {
+	-fx-background-image: url(../jpg/bgImage/popUpPaneErrorConnectServer.jpg);
+}
+
+#popUpPaneYouLose {
+		-fx-background-image: url(../jpg/bgImage/popUpPaneYouLose.jpg);
+}
+
+#popUpPaneYouWin {
+		-fx-background-image: url(../jpg/bgImage/popUpPaneYouWin.jpg);
+}
+
+#popUpPaneError {
+		-fx-background-image: url(../jpg/bgImage/popUpPaneError.jpg);
+}
+
+#popUpPaneGood {
+		-fx-background-image: url(../jpg/bgImage/popUpPaneGood.jpg);
+}
+
+#sunkShip {
+	-fx-image: url(../jpg/flagstaff/sunkShip.jpg);
+}
+
+#gridPaneShipsLocation {
+	-fx-background-image: url(../jpg/bgImage/gridPaneShipsLocation.jpg);	
+}
+
+#gridPaneHighScores {
+	-fx-background-image: url(../jpg/bgImage/gridPaneHighScores.jpg);	
+}
+
+.shipsLocationButton:hover {
+    -fx-background-color: #9ACD32;
+}
+
+
+
+#errorSetFlagstaff {
+	    -fx-background-color: #FF0000;
+}
+
+#errorShot {
+	    -fx-background-color: #FF0000;
+}
+
+.defaultButton {
+		    -fx-background-color: #E0E0E0
+}
+
+
+/*                         */
+.emptyField {
+	-fx-image: url(../jpg/flagstaff/emptyField.jpg);
+}
+
+#blockedField {
+		-fx-image: url(../jpg/flagstaff/blockedField.jpg);
+}
+
+#hitFlagstaff {
+		-fx-image: url(../jpg/flagstaff/hitFlagstaff.jpg);
+}
+
+#missField {
+		-fx-image: url(../jpg/flagstaff/missField.jpg);
+}
+
+#setFlagstaff {
+		-fx-image: url(../jpg/flagstaff/setFlagstaff.jpg);
+}
+
+#sunkFlagstaff {
+		-fx-image: url(../jpg/flagstaff/sunkFlagstaff.jpg);
+}
+
+#shipIsReadyToSet {
+	    -fx-background-color: #9ACD32;
+}
+
+#labelError {
+	-fx-text-fill: #FF0000;
+}
+
+#labelReady {
+	-fx-text-fill: #9ACD32;
+}
+
+#gridPaneDuel {
+	-fx-background-image: url(../jpg/bgImage/gridPaneDuel.jpg);	
+}
+
+.table-cell {
+    -fx-alignment: CENTER;
+}
+
+
+
